@@ -76,15 +76,21 @@ hr {
     
 }
 
-#about {
+.col-2 h3 {
     font-family: 'Dancing Script', cursive, Arial, Helvetica, sans-serif;
     font-size: 35px;
     margin: 10px;
-    
 }
+
 
 .col-10 {
     width: 83.33%;
+    
+}
+
+.col-10 h3 {
+    font-family: 'Dancing Script', cursive, Arial, Helvetica, sans-serif;
+    font-size: 45px;
 }
 
 .col-4 {
@@ -94,6 +100,7 @@ hr {
 
 .col-12 {
     width: 100%;
+    display: inline;
 }
 
 footer {
