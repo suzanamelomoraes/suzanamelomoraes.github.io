@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="styles/main.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script&display=swap" rel="stylesheet">
+    <title>My little space</title>
+</head>
+
+<body>
+    <header>
+        <h1>My little space</h1>
+
+        <h3>A touch of vintage style on the Tech world</h3>
+        <hr>
+
+        <nav>
+
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About me</a></li>
+                <li>Blog</li>
+                <li><a href="links.html">Links</a> </li>
+            </ul>
+        </nav>
+        <hr>
+    </header>
+
+    <section>
+        <div class="grid">
+            <div class="row">
+
+
+                <div class="col-10">
+                    <section>
+                        <h2>What's the difference between Padding, Border and Margin?</h2>
+                        <img src="https://qph.fs.quoracdn.net/main-qimg-c878e8a880644d3a5b06c2f517db7e5a"
+                            alt="Box showing margin, border, padding and content block" class="responsive">
+                        <p>One of the first things I get struggled to understand with no technology background was the
+                            difference between Padding, Border and Margin. Now I know that is that while padding deals
+                            with the inner space (the space between an element content and the border), margin deals
+                            with the outer space (the space outside of the element) to the next outer element. </p>
+                        <p>But, what it means to you if you are just reading that for the first time?</p>
+                        <p>Let's check the official definition about W3C - World Wide Web Consortium - I would say that
+                            those guys created almost everything we are suading just now, the definitions, rules, and
+                            they are still doing it. Just now. </p>
+                        <p>By W3C:<br>"All HTML elements can be considered as boxes. In CSS, the term "box model" is
+                            used when
+                            talking about design and layout. <br>
+                            The CSS box model is essentially a box that wraps around every HTML element. It consists of:
+                            margins, borders, padding, and the actual content." </p>
+                        <ul>
+                            <li> <strong>Content</strong> - The content of the box, where text and images appear</li>
+                            <li><strong>Padding</strong> - Clears an area around the content. The padding is transparent
+                            </li>
+                            <li><strong>Border </strong> - A border that goes around the padding and content</li>
+                            <li> <strong>Margin</strong> - Clears an area outside the border. The margin is transparent
+                            </li>
+                        </ul>
+                        <p>Ok, so now as a good developer you want to be, let's broken it in small parts.
+                            So have a look at the image and come back here. <br>
+                            Did you see the Padding?
+                        </p>
+                        <p>Now, let's think about the box as W3C explained to us. Padding defines the space between an
+                            element content and its border. If an element has a border around it, padding will give
+                            space from that border to the element content which appears in that border. If an element
+                            does not have a border around it, then adding padding has no effect at all on that element,
+                            because there is no border to give space from.</p>
+                        <p>So padding is a is a CSS property added to elements with borders surrounding them to give
+                            space from that border to the element content inside of the border.</p>
+                        <p>Ok then, so what is Margin?<br>
+                            Margin defines the space of outside of an element to its next outside element.
+                        </p>
+                        <p>Margin is another CSS property that affects elements that both have or do not have borders.
+                            If an element has a border, margin defines the space from this border to the next outer
+                            element. If an element does not have a border, then margin defines the space from the
+                            element content to the next outer element. </p>
+                        <p>So finally, the difference between margin and padding is that while padding deals with the
+                            inner space (the space between an element content and the border), margin deals with the
+                            outer space (the space outside of the element) to the next outer element.</p>
+
+                    </section>
+                </div>
+
+
+
+                <div class="col-2">
+                    <aside>
+                        <h3>About me</h3>
+                        <img src="Images/su.jpg" alt="Image of Suzana" class="responsive">
+                        <p>A new Web Developer student passionate about vintage and pinup style, sharing a little bit of
+                            this new and exciting journey inside HTML, CSS and Javascript world after 20 years of a
+                            solid career as Communications' Bachelor.</p>
+                        <p>Move to another country and learn a new language is not easier. I am from Brazil and moved to
+                            New Zealand in 2014 with no English. I am living in Auckland and on 2nd September 2019 I
+                            started a fulltime course to graduate as Web Developer.</p>
+                        <p>Here is my Linkedin <a
+                                href="https://www.linkedin.com/in/suzana-melo-moraes-166ba9106/">Suzana
+                                Melo Moraes</a></p>
+                        <p>I am passionate about vintage style follow me on my Instagram <a
+                                href="https://www.instagram.com/misscherry.sue/?hl=en">@misscherry.sue</a> </p>
+                    </aside>
+                </div>
+
+
+            </div>
+
+        </div>
+    </section>
+
+
+    <footer>
+        <div class="col-12"> &#169; Copyright 2019</div>
+    </footer>
+
+
+</body>
+
+</html>
