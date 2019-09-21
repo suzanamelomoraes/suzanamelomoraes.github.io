@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="styles/main.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script&display=swap" rel="stylesheet">
+    <title>My little space</title>
+</head>
+
+<body>
+    <header>
+        <h1>My little space</h1>
+
+        <h3>A touch of vintage style on the Tech world</h3>
+        <hr>
+
+        <nav>
+
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About me</a></li>
+                <li><a href="TechnicalArticles.html">Technical Articles</a></li>
+                <li><a href="culturalblog.html">Cultural Blog</a></li>
+                <li><a href="links.html">Links</a> </li>
+            </ul>
+        </nav>
+        <hr>
+    </header>
+
+    <section>
+        <div class="grid">
+            <div class="row">
+
+
+                <div class="col-10">
+                    <section>
+                        <h2>The difference between accessing data from arrays and objects</h2>
+                        <p>Let's start first understanding the difference between Arrays and Objects.</p>
+                        <p>Objects represent “elements” with properties, while arrays create and store lists of data in
+                            a single variable. Both dot and bracket notation allow us to access, add, change, and remove
+                            items from an object, while zero-based indexing and a variety of built-in methods let us
+                            access and alter items in an array. </p>
+                        <p>Did you think is this too complicated to understand?</p>
+                        <p>So, well. We can think an Array as a wall full of mailboxes identified from the number 0
+                            until 99, for example, it will be 100 in total. All of them have contents and for you access
+                            the correct content you need to know which is the correct mailbox number. </p>
+                        <p>
+                            It should be something like:<br>
+                        mailbox [0,1,2,3… and so on].</p>
+                        <p>So now, let's put this wall inside a big room. Imagine that this big room is full of cages
+                            and this wall
+                            is inside of one of these cages. Each of these cages are identified by names or properties
+                            and they have different contents or names values inside in different sizes including big
+                            boxes, cars, fourniture and also walls with mail boxes. The key to access those values are
+                            their names.</p>
+                        </p>So you can think about something like this:</p>
+                        <p>
+                            bigRoom{<br>
+                            &nbspcage 1 {<br>
+                            &nbsp &nbsp box1: books,<br>
+                            &nbsp &nbsp box2: glasses,<br>
+                            &nbsp &nbsp mailbox1 [0,1,2,3… and so on]<br>
+                            &nbsp}<br>
+                            &nbspcage2 : pickupFord,<br>
+                            &nbspcage3 {<br>
+                            &nbsp &nbsp mailbox1 [0,1,2,3… and so on]<br>
+                            &nbsp &nbsp }<br>
+                            }<br>
+                        </p>
+                        <p>Maybe now you can better understand this concept: Objects are used to represent a "thing”
+                            in your code and these characteristics are called properties that consist of a key and a
+                            value. While talking about coding, properties in objects can be accessed, added, changed,
+                            and removed by using either dot or bracket notation. <br>For example: bigRoom.cage1.box1 or
+                            bigRoom[cage2].</p>
+                        <p>Objects are best when you want to organize based on data labels. When you read a newspaper,
+                            you likely do not read it front to back, page by page. You flip to a certain section based
+                            on the section’s name. No matter where that section is located in the newspaper, you can
+                            flip to it immediately and have the appropriate context. </p>
+                        <p>You want to use arrays when order is the most important factor for organizing the
+                            information, like a book, where the order of the chapters/sections matters.</p>
+                        <p>We use arrays whenever we want to create and store a list of multiple items in a single
+                            variable. Arrays are especially useful when creating ordered collections where items in the
+                            collection can be accessed by their numerical position in the list, like the mail boxes.
+                            Just as object properties can store values of any primitive data type, so too can arrays
+                            consist of strings, numbers, booleans, objects, or even other arrays.</p>
+                        <p>Arrays use zero-based indexing, so the first item in an array has an index of 0, the second
+                            item an index of 1, and so on.</p>
+                        <p>A general rule of thumb is that if you need to store a collection of properties of varying
+                            types, use an object. Otherwise, use an array.</p>
+
+                    </section>
+                </div>
+
+
+
+                <div class="col-2">
+                    <aside>
+                        <h3>About me</h3>
+                        <img src="Images/su.jpg" alt="Image of Suzana" class="responsive">
+                        <p>A new Web Developer student passionate about vintage and pinup style, sharing a little bit of
+                            this new and exciting journey inside HTML, CSS and Javascript world after 20 years of a
+                            solid career as Communications' Bachelor.</p>
+                        <p>Move to another country and learn a new language is not easier. I am from Brazil and moved to
+                            New Zealand in 2014 with no English. I am living in Auckland and on 2nd September 2019 I
+                            started a fulltime course to graduate as Web Developer.</p>
+                        <p>Here is my Linkedin <a
+                                href="https://www.linkedin.com/in/suzana-melo-moraes-166ba9106/">Suzana
+                                Melo Moraes</a></p>
+                        <p>I am passionate about vintage style follow me on my Instagram <a
+                                href="https://www.instagram.com/misscherry.sue/?hl=en">@misscherry.sue</a> </p>
+                    </aside>
+                </div>
+
+
+            </div>
+
+        </div>
+    </section>
+
+
+    <footer>
+        <div class="col-12"> &#169; Copyright 2019</div>
+    </footer>
+
+
+</body>
+
+</html>
